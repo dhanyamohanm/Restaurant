@@ -1,0 +1,1476 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Kalam:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Poppins', sans-serif;
+position: relative;
+}
+.mainbanner{
+    background: url(../img/mainimg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-attachment:fixed;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.mainnav{
+    display: flex;
+    column-gap: 30px;
+}
+.maincontainer{
+    width:90%;
+    margin:0 auto;
+}
+.logo{
+    text-decoration: none;
+    color:white;
+    font-size:23px;
+    font-weight:500;
+
+}
+.mainnav a{
+    text-decoration: none;
+    color:white;
+    font-size: 13px;
+    color: gray;
+}
+.firstbuttondiv{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.firstbuttondiv a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 9px 20px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 400;
+
+}
+.mainshadow{
+    background-color: rgba(27, 25, 25,0.4);
+    height: 100vh;
+}
+.mainbannerfirstcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+    height: 100vh;
+}
+.mainbannerfirstcontent1 h5{
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.mainbannerfirstcontent2 h1{
+    color:white;
+    font-size: 66px;
+    font-weight: 600;
+}
+.mainbannerfirstcontent3 h6{
+    color: white;
+    max-width: 600px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.mainbannerfirstcontent4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+.mainbannerfirstcontent4 a{
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.scroll h6{
+    color:white;
+    bottom: 10px;
+    left:47%;
+    position: absolute;
+    font-weight: 400;
+}
+.socialmedia{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    z-index:2;
+    display: flex;
+    column-gap: 10px;
+}
+.whatsapp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.whatsapp i{
+    color:orange;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.insta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.insta i{
+    color:orange;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook i{
+    color:orange;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.twitter i{
+    color:orange;
+    background-color: white;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.secondbanner{
+    background-color: #ffe3af;
+    padding: 100px 0;
+}
+.secondcontainer{
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.breakfast{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start
+}
+.breakname h5{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.secondbannercontent1first h5{
+    color:gray;
+    letter-spacing:3.5px;
+    padding-bottom: 10px;
+}
+.secondbannercontent1first h3{
+    font-size: 35px;
+    font-weight: 400;
+    word-spacing:1.3px;
+}
+span{
+    color: orangered;
+}
+.secondbannercontent1second{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 20px;
+}
+.breakfastimg{
+    width:60px;
+    height: 60px;
+    overflow: hidden;
+}
+.breakfastimg img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.foodimagecontainer {
+    width: 327px;
+    height: 176px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+
+.foodimagecontainer img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+}
+.item1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.item2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.secondbannercontent2{
+    flex:0 0 70%;
+    overflow: hidden;
+}
+.secondbannercontent1{
+    flex:0 0 30%;
+}
+.foodimage{
+    padding: 30px;
+}
+.foodimagecontent{
+    padding-top: 20px;
+}
+.foodimagecontent h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+.foodimagecontent h6{
+    font-size: 18px;
+    color: orangered;
+    font-weight: 400;
+}
+.one h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+.two h6{
+    font-size: 13px;
+}
+.thirdbanner{
+    background-color: #ffe3af;
+    padding: 100px 0;
+}
+.thirdbannercontainer{
+    width:90%;
+    margin:0 auto;
+}
+.thirdbannercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.thirdbannercontent1 h5{
+    
+    color:gray;
+    letter-spacing:3.5px;
+    padding-bottom: 10px;
+}
+.thirdbannercontent2 h3{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.sweets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.sweets1{
+    display: flex;
+    align-items: center;
+    border:  1px solid grey;
+    margin:10px;
+    padding: 20px 25px;
+}
+.sweetimage{
+    width:100px;
+    height: 100px;
+    overflow: hidden;
+}
+.sweetimage img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.sweetcontent h4{
+    font-weight: 400;
+    font-size: 18px;
+}
+.sweets1:hover{
+    background-color: white;
+    border: 1px solid white;
+}
+.fourthbannercontentfirst1 h5{
+    color:gray;
+    letter-spacing:3.5px;
+    padding-bottom: 10px;
+}
+.fourthbannercontentfirst2 h3{
+    font-size: 35px;
+    font-weight: 400;
+    word-spacing:1.3px;
+}
+.fourthbanner{
+    
+    background-image: url(../img/ice-cream.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.fourthcontainer{
+    width:90%;
+    margin:0 auto;
+}
+.fourthshadow{
+    background-color:rgba(232, 187, 102, 0.7);
+    height: 100vh;
+    
+}
+.fourthbannercontent{
+    padding: 100px 0;
+}
+.manimagecontainer{
+    width:70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.manimagecontainer img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name h5{
+    color: orangered;
+    font-size: 19px;
+    font-weight: 400;
+}
+.job h6{
+    font-size: 13px;
+    font-weight: 500;
+}
+.mancontent h6{
+    max-width: 500px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+.photo1 {
+    width: 304px;
+    height: 184px;
+    overflow: hidden;
+    padding: 10px;
+}
+
+
+.photo1 img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+
+}
+.fourthbannercontent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.fourthbannercontentfirst{
+    overflow: hidden;
+}
+.fourthbannercontentsecond{
+    flex: 0 0 60%;
+}
+.fourthbannercontentfirst{
+    flex: 0 0 40%;
+} 
+.fourthbannercontentsecondfirst h5{
+    color:gray;
+    letter-spacing:3.5px;
+    padding-bottom: 10px;
+
+}
+.fourthbannercontentsecondfirst h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.gallerybutton{
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    padding-top: 20px;
+}
+.gallerybutton a{
+    text-decoration: none;
+    padding: 15px 35px;
+    background-color: orangered;
+    color: white;
+    font-size: 13px;
+    border-radius: 50px;
+
+}
+.fourthbannercontentsecond{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.fifthbanner{
+    background-color: #ffe3af;
+    padding: 100px 0;
+}
+.fifthbannercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.fifthbannercontainer{
+    width:90%;
+    margin:0 auto;
+}
+.fifthbannercontentfirst h5{
+    color:gray;
+    letter-spacing:3.5px;
+    padding-bottom: 10px;
+
+}
+.fifthbannercontentsecond h3{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.fifthbannercontentthird h6{
+    max-width: 550px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.itemimage{
+    width:500px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.itemimage img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.item5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 50px;
+}
+.tick{
+    display: flex;
+    align-items: center;
+}
+.itemcontenthead h2{
+    font-weight: 400;
+    font-size: 27px;
+    padding-bottom: 20px;
+}
+.itemcontentexplanation h6{
+    
+    max-width: 550px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+
+}
+.tick1 i{
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.tick2 h5{
+    font-size: 15px;
+    font-weight: 400;
+
+
+}
+.itemcontentrs h3{
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+.sixthbanner{
+    
+    background-image: url(../img/ice-cream.jpg);
+    background-position: center;
+
+    background-attachment: fixed;
+}
+.sixthcontainer{
+    width:90%;
+    margin:0 auto;
+}
+.sixthbannercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+.sixthbannercontentfirst h5{
+    color:gray;
+    letter-spacing:3.5px;
+    padding-bottom: 10px;
+
+
+}
+.sixthbannercontentsecond h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+
+}
+.sixthbannercontentthird h6{
+    max-width: 600px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+
+}
+.sixthbannerbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sixthbannerbutton a{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    font-size: 13px;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.sixthshadow{
+    background-color:rgba(232, 187, 102, 0.7);
+}
+.footersocialmedia{
+    display: flex;
+    column-gap: 10px;
+}
+.instagram{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instagram i{
+    padding: 5px 8px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: white;
+
+}
+.footercontent{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.footercontent{
+    padding: 100px 0;
+}
+.footerbanner{
+    background-color: #645f56;
+}
+.footercontainer{
+    width:90%;
+    margin:0 auto;
+}
+.footerhead h5{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.footercontentsub h6{
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    max-width:350px;
+    padding-bottom: 30px;
+}
+.footercontent2sub{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+
+}
+
+
+.footercontent2sub a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#9b978f
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+.copyright h5{
+    font-weight: 400;
+    color:white
+}
+.instagram i:hover{
+    color:white;
+    background-color: orange;
+    
+}
+.footercontent2sub a:hover{
+    color: white;
+
+}
+.aboutsecondbanner{
+    background-color: #ffe3af;
+    padding: 100px 0;
+
+}
+.aboutsecondcontainer{
+    width:90%;
+    margin:0 auto;
+}
+.aboutsecondcontent h5{
+    color:gray;
+    letter-spacing:3.5px;
+    padding-bottom: 10px;
+}
+.aboutsecondcontent h3{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    
+
+} 
+.textbox3 h3{
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+    
+}
+.textbox4 h6{
+    max-width: 400px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.textbox{
+    border: 1px solid rgb(144, 141, 141) ;
+    padding: 30px 30px;
+    margin:10px;
+    /* transition: all 1s; */
+}
+.aboutsecondcontentfirst{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.textbox1 h5{
+    color: orangered;
+}
+/* .textbox:hover{
+    background-color: orangered;
+    position: relative;
+    bottom:30px;
+    border: orangered;
+    color: white;
+    
+    
+} */
+.aboutthirdbannercontainer{
+    width:90%;
+    margin:0 auto;
+}
+.aboutthirdbanner{
+    background-color: #f6cb84;
+    padding: 100px 0;
+}
+.aboutthirdbannercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+} 
+.aboutthirdbannercontent1 h5{
+    color:gray;
+    letter-spacing:3.5px;
+    padding-bottom: 10px;
+
+}
+.aboutthirdbannercontent2 h3{
+    font-size: 35px;
+    font-weight: 500;
+    word-spacing:1.3px;
+
+}
+.aboutthirdbannercontent3 h6{
+    max-width: 550px;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.chef1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+    height: 400px;
+    position: relative;
+    margin:10px
+}
+.chef1 img{
+    width:100%;
+    height: 100%;
+    object-fit:cover;
+}
+.chefdetails{
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    bottom: 10px;
+}
+.chefname h3{
+    color: white;
+    font-size: 25px;
+}
+.position h5{
+    color:white;
+    letter-spacing:3.5px;
+    padding-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight:700;
+    font-size: 15px;
+
+}
+.chefsocialmedia{
+    display: flex;
+    column-gap: 10px;
+}
+.instagram1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instagram1 i{
+    padding: 5px 8px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: white;
+    color: orangered;
+
+}
+.aboutthirdbannercontentimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.instagram1:hover{
+    position: relative;
+    bottom: 10px;
+}
+.gallerysecondcontainer{
+    width:90%;
+    margin:0 auto;
+}
+.gallerysecondbanner{
+    background-color: #ffe3af;
+    padding: 100px 0;
+
+}
+.imagegallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image1{
+    width:350px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin:10px;
+
+}
+.image1 img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 1s;
+    
+}
+.image1 img:hover{
+    transform: scale(1.5);
+    
+}
+.contactsecondcontainer{
+    width:90%;
+    margin:0 auto;
+}
+.location{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-bottom: 30px;
+    
+}
+.location1 i{
+    color: white;
+    background-color: orangered;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.contactsecondbanner{
+    background-color:#ffe3af;
+
+}
+.location2 h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.location2 h6{
+    font-size:13px;
+    font-weight: 400;
+}
+.contactcontent{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 100px 0;
+}
+.contactname{
+    display: flex;
+    column-gap: 30px;
+    padding-bottom: 20px;
+}
+.contactname input{
+    width:350px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid rgb(164, 149, 149);
+    padding: 0  10px;
+
+}
+.subject{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.subject input{
+    height: 50px;
+    
+    background-color: transparent;
+    border: 1px solid rgb(164, 149, 149);
+    padding: 0 10px;
+
+
+}
+.formsubmit{
+    padding-top: 20px;
+    
+    
+}
+.formsubmit a{
+    color: white;
+    background-color: orangered;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mainnav a:hover{
+    color: white;
+}
+.bar{
+    display:none;
+}
+.phonediv{
+    display: none;
+}
+
+
+@media screen and (max-width:1025px) {
+    .foodimagecontainer {
+        width: 246px;
+        height: 171px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .sweetimage {
+        width: 79px;
+        height: 91px;
+        overflow: hidden;
+    }
+    .sweets1 {
+        display: flex;
+        align-items: center;
+        border: 1px solid grey;
+        margin: 10px;
+        padding: 10px 15px;
+    }
+    .sweetcontent h4 {
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .photo1 {
+        width: 263px;
+        height: 148px;
+        overflow: hidden;
+        padding: 10px;
+    }
+    .fourthbannercontent {
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+    }
+    .fourthbannercontentfirst2 h3 {
+        font-size: 30px;
+        font-weight: 400;
+        word-spacing: 1.3px;
+    }
+    .fourthbannercontentsecondfirst h3 {
+        font-size: 27px;
+        font-weight: 500;
+    }
+    .textbox4 h6 {
+        max-width: 600px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .aboutthirdbannercontent2 h3 {
+        font-size: 32px;
+        font-weight: 500;
+        word-spacing: 1.3px;
+    }
+    .chefname h3 {
+        color: white;
+        font-size: 22px;
+    }
+    .image1 {
+        width: 287px;
+        height: 183px;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .mainbannerfirstcontent2 h1 {
+        color: white;
+        font-size: 53px;
+        font-weight: 600;
+    }
+    .foodimagecontent h5 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .foodimagecontent h5 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .itemimage {
+        width: 478px;
+        height: 352px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .foodimagecontent h5 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    
+    .contactname input {
+        width: 240px;
+        height: 50px;
+        background-color: transparent;
+        border: 1px solid rgb(164, 149, 149);
+        padding: 0 10px;
+    }
+    .itemimage {
+        width: 478px;
+        height: 352px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .secondcontainer {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .photo1 {
+        width: 207px;
+        height: 119px;
+        overflow: hidden;
+        padding: 10px;
+    }
+    .mancontent h6 {
+        max-width: 500px;
+        font-size: 12px;
+        font-weight: 400;
+        padding-top: 30px;
+    }
+    .fourthbannercontentfirst2 h3 {
+        font-size: 26px;
+        font-weight: 400;
+        word-spacing: 1.3px;
+    }
+    .itemcontentexplanation h6 {
+        max-width: 550px;
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    .itemcontenthead h2 {
+        font-weight: 400;
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+    .itemcontentrs h3 {
+        font-size: 23px;
+        font-weight: 400;
+        padding-top: 40px;
+    }
+    .itemimage {
+        width: 510px;
+        height: 321px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .footercontent {
+        display: flex;
+        
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 30px;
+        
+    }
+    .aboutsecondcontentfirst {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        flex-wrap: wrap;
+    }
+    .aboutthirdbannercontent2 h3 {
+        font-size: 29px;
+        font-weight: 500;
+        word-spacing: 1.3px;
+    }
+    .aboutthirdbannercontent3 h6 {
+        max-width: 550px;
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .chef1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 314px;
+        position: relative;
+        margin: 10px;
+    }
+    .chefname h3 {
+        color: white;
+        font-size: 19px;
+    }
+    .instagram1 i {
+        padding: 5px 8px;
+        font-size: 12px;
+        border-radius: 50px;
+        background-color: white;
+        color: orangered;
+    }
+    .aboutsecondcontent{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image1 {
+    width: 210px;
+    height: 148px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+}
+.mainbannerfirstcontent1 h5 {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mainbannerfirstcontent2 h1 {
+    color: white;
+    font-size: 47px;
+    font-weight: 600;
+}
+.mainbannerfirstcontent3 h6 {
+    color: white;
+    max-width: 600px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.contactcontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    flex-direction: column;
+}
+.contactcontent1{
+    order: 2;
+    padding-top:88px;
+}
+.formsubmit {
+    padding-top: 20px;
+    text-align: center;
+}
+.location1 i {
+    color: white;
+    background-color: orangered;
+    padding: 7px 11px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.location2 h4 {
+    font-size: 19px;
+    font-weight: 400;
+}
+.sweets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    width: 93%;
+}
+.sweets1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    margin: 16px;
+    padding: 10px 15px;
+}
+.sweetcontent h4 {
+    font-weight: 400;
+    font-size: 19px;
+}
+.sweetimage {
+    width: 93px;
+    height: 96px;
+    overflow: hidden;
+}
+.fifthbannercontentsecond h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+.sixthbannercontentsecond h3 {
+    font-size: 28px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.secondbannercontent2 {
+    
+    overflow: hidden;
+}
+.secondbannercontent1second {
+    display: flex;
+    /* flex-direction: column; */
+    row-gap: 10px;
+    padding-top: 20px;
+    column-gap: 45px;
+}
+.thirdbanner{
+    padding: 100px 0;
+}
+.secondbanner{
+    display: none;
+}
+
+
+
+}
+@media screen and (max-width:426px) {
+    .mainnav{
+        display: none;
+    }
+    .bar{
+        display: initial;
+        color: orangered;
+        font-size: 23px;
+    }
+    
+    
+    .logo {
+        text-decoration: none;
+        color: white;
+        font-size: 21px;
+        font-weight: 500;
+    }
+    .firstbuttondiv a {
+        text-decoration: none;
+        color: white;
+        background-color: orangered;
+        padding: 9px 14px;
+        border-radius: 50px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .mainbannerfirstcontent1 h5 {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+    }.mainbannerfirstcontent1 h5 {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .mainbannerfirstcontent2 h1 {
+        color: white;
+        font-size: 44px;
+        font-weight: 600;
+    }
+    .mainbannerfirstcontent3 h6 {
+        color: white;
+        max-width: 600px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .contactname input {
+        width: 165px;
+        height: 42px;
+        background-color: transparent;
+        border: 1px solid rgb(164, 149, 149);
+        padding: 0 10px;
+    }
+    .image1 {
+        width: 170px;
+        height: 131px;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .aboutthirdbannercontentimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 0;
+        flex-direction: column;
+    }
+    .chef1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 244px;
+        height: 311px;
+        position: relative;
+        margin: 10px;
+    }
+    .copyright h5 {
+        font-weight: 400;
+        color: white;
+        font-size: 10px;
+    }
+    .footercontent2sub a {
+        text-decoration: none;
+        font-size: 12px;
+        color: #9b978f;
+    }
+    .footerhead h5 {
+        color: white;
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 30px;
+    }
+    .chefname h3 {
+        color: white;
+        font-size: 20px;
+    }
+
+    .instagram1 i {
+        padding: 5px 8px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: white;
+        color: orangered;
+    }
+    .position h5 {
+        color: white;
+        letter-spacing: 3.5px;
+        padding-bottom: 10px;
+        padding-bottom: 10px;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    .fourthbannercontentfirst {
+        flex: 0 0 40%;
+        order:2;
+    }
+    .fourthbannercontent {
+        display: flex;
+        /* align-items: center; */
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .photo1 {
+        width: 176px;
+        height: 119px;
+        overflow: hidden;
+        padding: 10px;
+    }
+    .item5{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        column-gap: 50px;
+    }
+    .importentpoints{
+        padding-bottom: 20px;
+    }
+    
+    
+    .sixthbannercontentthird h6 {
+        max-width: 600px;
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    .sixthbannerbutton a {
+        text-decoration: none;
+        background-color: orangered;
+        color: white;
+        font-size: 11px;
+        padding: 10px 30px;
+        border-radius: 50px;
+    }
+    .thirdbanner {
+        background-color: #ffe3af;
+        padding: 100px 0;
+    }
+    .itemimage {
+        width: 510px;
+        height: 225px;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .phonediv{
+        display: initial;
+        position: absolute;
+        background-color: white;
+        z-index: 1;
+        width:50%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-between;
+        
+        
+    }
+    .phonediv1 a{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        margin:10px;
+        color:orangered;
+        font-size: 20px;
+        font-weight: 500;
+        
+        border-radius: 50px;
+        
+        
+    }
+    .closingbar i{
+        color:orangered;
+        font-size: 25px;
+        position: absolute;
+        right:20px;
+        top:10px;
+    }
+    .fourthbannercontentfirst{
+        display: none;
+    }
+    .phonediv{
+        display: none;
+    }
+    .phonediv1{
+        display: initial;
+    }
+    .secondbanner{
+        display: none;
+    }
+    
+    
+    
+    
+} 
+    
+
+    
+    
+
+
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
